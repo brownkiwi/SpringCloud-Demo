@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: my-nacos-cluster-provider-8085
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://www.mynacos.com
+        username: nacos
+        password: nacos
+        ip: 192.168.0.103
+
+server:
+  port: 8085

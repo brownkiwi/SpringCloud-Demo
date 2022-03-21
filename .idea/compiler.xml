@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-nacos-config-consumer" />
+        <module name="my-nacos-resttemplate-direct-consumer" />
+        <module name="my-nacos-provider-cluster" />
+        <module name="my-sentinel-flowcontrol-consumer" />
+        <module name="my-sentinel-circuitbreakingexception-consumer" />
+        <module name="my-gateway-predicates-cookie" />
+        <module name="my-gateway-predicates-between" />
+        <module name="my-nacos-resttemplate-spring-consumer" />
+        <module name="my-gateway-predicates-method" />
+        <module name="my-sentinel-circuitbreakingexception-provider" />
+        <module name="my-sentinel-datasourceextensionpull-provider" />
+        <module name="my-gateway-predicates-host" />
+        <module name="my-nacos-switchactive-consumer" />
+        <module name="my-sentinel-flowcontrol-provider" />
+        <module name="my-gateway-gatewayfilter-customfilter" />
+        <module name="my-sentinel-datasourceextensionpull-consumer" />
+        <module name="my-gateway-predicates-path-providercluster" />
+        <module name="my-gateway-predicates-remoteaddr" />
+        <module name="my-gateway-gatewayfilter-addrequestheader" />
+        <module name="my-gateway-predicates-weight" />
+        <module name="my-nacos-config-commonconfig-consumer" />
+        <module name="my-gateway-predicates-header" />
+        <module name="my-sentinel-begin-provider" />
+        <module name="my-nacos-config-provider" />
+        <module name="my-sentinel-flowcontrolexception-provider" />
+        <module name="my-api" />
+        <module name="my-sentinel-flowcontrolexception-consumer" />
+        <module name="my-gateway-predicates-query" />
+        <module name="my-nacos-provider-standalone-cluster" />
+        <module name="my-nacos-cluster-provider" />
+        <module name="my-sentinel-begin-consumer" />
+        <module name="my-gateway-predicates-after" />
+        <module name="my-nacos-config-refreshable-connectionpool-consumer" />
+        <module name="my-sentinel-originauthoritycontrol-consumer" />
+        <module name="my-sentinel-originauthoritycontrol-provider" />
+        <module name="my-sentinel-systemadaptiveprotection-consumer" />
+        <module name="my-gateway-predicates-custompredicates" />
+        <module name="my-nacos-namespace-consumer" />
+        <module name="my-sentinel-systemadaptiveprotection-provider" />
+        <module name="my-nacos-openfeign-consumer" />
+        <module name="my-sentinel-hotspot-consumer" />
+        <module name="my-sentinel-datasourceextensionpush-provider" />
+        <module name="my-sentinel-circuitbreaking-consumer" />
+        <module name="my-nacos-openfeign-cluster-consumer" />
+        <module name="my-gateway-predicates-path-begintest" />
+        <module name="my-sentinel-datasourceextensionpush-consumer" />
+        <module name="my-nacos-namespace-provider" />
+        <module name="my-sentinel-circuitbreaking-provider" />
+        <module name="my-sentinel-hotspot-provider" />
+        <module name="my-gateway-predicates-before" />
+        <module name="my-gateway-globalfilter-customfilter" />
+        <module name="my-nacos-cluster-consumer" />
+        <module name="my-nacos-config-refreshable-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-api" target="1.8" />
+      <module name="my-gateway-gatewayfilter-addrequestheader" target="1.8" />
+      <module name="my-gateway-gatewayfilter-customfilter" target="1.8" />
+      <module name="my-gateway-globalfilter-customfilter" target="1.8" />
+      <module name="my-gateway-predicates-after" target="1.8" />
+      <module name="my-gateway-predicates-before" target="1.8" />
+      <module name="my-gateway-predicates-between" target="1.8" />
+      <module name="my-gateway-predicates-cookie" target="1.8" />
+      <module name="my-gateway-predicates-custompredicates" target="1.8" />
+      <module name="my-gateway-predicates-header" target="1.8" />
+      <module name="my-gateway-predicates-host" target="1.8" />
+      <module name="my-gateway-predicates-method" target="1.8" />
+      <module name="my-gateway-predicates-path-begintest" target="1.8" />
+      <module name="my-gateway-predicates-path-providercluster" target="1.8" />
+      <module name="my-gateway-predicates-query" target="1.8" />
+      <module name="my-gateway-predicates-remoteaddr" target="1.8" />
+      <module name="my-gateway-predicates-weight" target="1.8" />
+      <module name="my-nacos-cluster-consumer" target="1.8" />
+      <module name="my-nacos-cluster-provider" target="1.8" />
+      <module name="my-nacos-config-commonconfig-consumer" target="1.8" />
+      <module name="my-nacos-config-consumer" target="1.8" />
+      <module name="my-nacos-config-provider" target="1.8" />
+      <module name="my-nacos-config-refreshable-connectionpool-consumer" target="1.8" />
+      <module name="my-nacos-config-refreshable-consumer" target="1.8" />
+      <module name="my-nacos-namespace-consumer" target="1.8" />
+      <module name="my-nacos-namespace-provider" target="1.8" />
+      <module name="my-nacos-openfeign-cluster-consumer" target="1.8" />
+      <module name="my-nacos-openfeign-consumer" target="1.8" />
+      <module name="my-nacos-provider-cluster" target="8" />
+      <module name="my-nacos-provider-standalone-cluster" target="1.8" />
+      <module name="my-nacos-resttemplate-direct-consumer" target="1.8" />
+      <module name="my-nacos-resttemplate-spring-consumer" target="1.8" />
+      <module name="my-nacos-switchactive-consumer" target="1.8" />
+      <module name="my-parent" target="1.8" />
+      <module name="my-sentinel-begin-consumer" target="1.8" />
+      <module name="my-sentinel-begin-provider" target="1.8" />
+      <module name="my-sentinel-circuitbreaking-consumer" target="1.8" />
+      <module name="my-sentinel-circuitbreaking-provider" target="1.8" />
+      <module name="my-sentinel-circuitbreakingexception-consumer" target="1.8" />
+      <module name="my-sentinel-circuitbreakingexception-provider" target="1.8" />
+      <module name="my-sentinel-datasourceextensionpull-consumer" target="1.8" />
+      <module name="my-sentinel-datasourceextensionpull-provider" target="1.8" />
+      <module name="my-sentinel-datasourceextensionpush-consumer" target="1.7" />
+      <module name="my-sentinel-datasourceextensionpush-provider" target="1.7" />
+      <module name="my-sentinel-flowcontrol-consumer" target="1.8" />
+      <module name="my-sentinel-flowcontrol-provider" target="1.8" />
+      <module name="my-sentinel-flowcontrolexception-consumer" target="1.8" />
+      <module name="my-sentinel-flowcontrolexception-provider" target="1.8" />
+      <module name="my-sentinel-hotspot-consumer" target="1.8" />
+      <module name="my-sentinel-hotspot-provider" target="1.8" />
+      <module name="my-sentinel-originauthoritycontrol-consumer" target="1.8" />
+      <module name="my-sentinel-originauthoritycontrol-provider" target="1.8" />
+      <module name="my-sentinel-systemadaptiveprotection-consumer" target="1.8" />
+      <module name="my-sentinel-systemadaptiveprotection-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my-api" options="-parameters" />
+      <module name="my-gateway-gatewayfilter-addrequestheader" options="-parameters" />
+      <module name="my-gateway-gatewayfilter-customfilter" options="-parameters" />
+      <module name="my-gateway-globalfilter-customfilter" options="-parameters" />
+      <module name="my-gateway-predicates-after" options="-parameters" />
+      <module name="my-gateway-predicates-before" options="-parameters" />
+      <module name="my-gateway-predicates-between" options="-parameters" />
+      <module name="my-gateway-predicates-cookie" options="-parameters" />
+      <module name="my-gateway-predicates-custompredicates" options="-parameters" />
+      <module name="my-gateway-predicates-header" options="-parameters" />
+      <module name="my-gateway-predicates-host" options="-parameters" />
+      <module name="my-gateway-predicates-method" options="-parameters" />
+      <module name="my-gateway-predicates-path-begintest" options="-parameters" />
+      <module name="my-gateway-predicates-path-providercluster" options="-parameters" />
+      <module name="my-gateway-predicates-query" options="-parameters" />
+      <module name="my-gateway-predicates-remoteaddr" options="-parameters" />
+      <module name="my-gateway-predicates-weight" options="-parameters" />
+      <module name="my-nacos-cluster-consumer" options="-parameters" />
+      <module name="my-nacos-cluster-provider" options="-parameters" />
+      <module name="my-nacos-config-commonconfig-consumer" options="-parameters" />
+      <module name="my-nacos-config-consumer" options="-parameters" />
+      <module name="my-nacos-config-provider" options="-parameters" />
+      <module name="my-nacos-config-refreshable-connectionpool-consumer" options="-parameters" />
+      <module name="my-nacos-config-refreshable-consumer" options="-parameters" />
+      <module name="my-nacos-namespace-consumer" options="-parameters" />
+      <module name="my-nacos-namespace-provider" options="-parameters" />
+      <module name="my-nacos-openfeign-cluster-consumer" options="-parameters" />
+      <module name="my-nacos-openfeign-consumer" options="-parameters" />
+      <module name="my-nacos-provider-cluster" options="-parameters" />
+      <module name="my-nacos-provider-standalone-cluster" options="-parameters" />
+      <module name="my-nacos-resttemplate-direct-consumer" options="-parameters" />
+      <module name="my-nacos-resttemplate-spring-consumer" options="-parameters" />
+      <module name="my-nacos-switchactive-consumer" options="-parameters" />
+      <module name="my-sentinel-begin-consumer" options="-parameters" />
+      <module name="my-sentinel-begin-provider" options="-parameters" />
+      <module name="my-sentinel-circuitbreaking-consumer" options="-parameters" />
+      <module name="my-sentinel-circuitbreaking-provider" options="-parameters" />
+      <module name="my-sentinel-circuitbreakingexception-consumer" options="-parameters" />
+      <module name="my-sentinel-circuitbreakingexception-provider" options="-parameters" />
+      <module name="my-sentinel-datasourceextensionpull-consumer" options="-parameters" />
+      <module name="my-sentinel-datasourceextensionpull-provider" options="-parameters" />
+      <module name="my-sentinel-datasourceextensionpush-consumer" options="-parameters" />
+      <module name="my-sentinel-datasourceextensionpush-provider" options="-parameters" />
+      <module name="my-sentinel-flowcontrol-consumer" options="-parameters" />
+      <module name="my-sentinel-flowcontrol-provider" options="-parameters" />
+      <module name="my-sentinel-flowcontrolexception-consumer" options="-parameters" />
+      <module name="my-sentinel-flowcontrolexception-provider" options="-parameters" />
+      <module name="my-sentinel-hotspot-consumer" options="-parameters" />
+      <module name="my-sentinel-hotspot-provider" options="-parameters" />
+      <module name="my-sentinel-originauthoritycontrol-consumer" options="-parameters" />
+      <module name="my-sentinel-originauthoritycontrol-provider" options="-parameters" />
+      <module name="my-sentinel-systemadaptiveprotection-consumer" options="-parameters" />
+      <module name="my-sentinel-systemadaptiveprotection-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

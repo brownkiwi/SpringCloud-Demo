@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-sentinel-hotspot-provider:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-sentinel-hotspot-provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-sentinel-hotspot-provider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-sentinel-hotspot-provider-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-sentinel-hotspot-provider:war exploded" />
+    </root>
+  </artifact>
+</component>

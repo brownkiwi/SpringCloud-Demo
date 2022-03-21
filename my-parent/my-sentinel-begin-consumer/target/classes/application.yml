@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: my-sentinel-begin-consumer-8091
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.78:8848
+        username: nacos
+        password: nacos
+    sentinel:
+      transport:
+        # 使用8722端口和8888端口进行运行状态数据的传输
+        port: 8722
+        dashboard: 192.168.0.78:8888
+      eager: true
+
+server:
+  port: 8091

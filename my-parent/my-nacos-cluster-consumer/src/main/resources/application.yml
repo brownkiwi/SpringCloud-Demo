@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: my-nacos-cluster-consumer-8091
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://www.mynacos.com
+        username: nacos
+        password: nacos
+
+server:
+  port: 8091

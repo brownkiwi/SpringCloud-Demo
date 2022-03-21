@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: my-gateway-predicates-path-providercluster-8088
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.84:8848
+        username: nacos
+        password: nacos
+        ip: 192.168.0.84
+    gateway:
+      routes:
+        #不建议使用，IP和PORT硬编码
+        - id: test1
+          uri: http://localhost:8087/
+          predicates:
+            - Path=/test1/**
+          filters:
+            - StripPrefix=1
+        #建议使用，通过服务名称
+        - id: test2
+          uri: lb://my-nacos-provider-cluster/
+          predicates:
+            - Path=/test2/**
+          filters:
+            - StripPrefix=1
+
+server:
+  port: 8088

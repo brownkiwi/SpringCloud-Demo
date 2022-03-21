@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: my-nacos-openfeign-cluster-consumer-8091
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.72:8848
+        username: nacos
+        password: nacos
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8091

@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.0.75:8848
+        username: nacos
+        password: nacos
+        namespace: ConfigManager_Test1
+        group: MyNacosConfigCommonConfigConsumerGroup
+        prefix: MyNacosConfigCommonConfigConsumer
+        file-extension: yml
+        shared-configs[0]:
+          data-id: NacosConfig.yml
+          group: MyNacosConfigCommonConfigConsumerGroup
+          refresh: true
+        shared-configs[1]:
+          data-id: MysqlDatasource.yml
+          group: MyNacosConfigCommonConfigConsumerGroup
+          refresh: true
+  profiles:
+    active: 8095

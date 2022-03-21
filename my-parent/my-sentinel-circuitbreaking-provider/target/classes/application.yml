@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: my-sentinel-circuitbreaking-provider-8085
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.68:8848
+        username: nacos
+        password: nacos
+        ip: 192.168.0.68
+    sentinel:
+      transport:
+        # 使用8721端口和8888端口进行运行状态数据的传输
+        port: 8721
+        dashboard: 192.168.0.68:8888
+        client-ip: 192.168.0.68
+      eager: true
+      web-context-unify: false
+
+server:
+  port: 8085

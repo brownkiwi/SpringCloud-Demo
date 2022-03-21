@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-sentinel-datasourceextensionpull-provider:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-sentinel-datasourceextensionpull-provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-sentinel-datasourceextensionpull-provider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-sentinel-datasourceextensionpull-provider-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-sentinel-datasourceextensionpull-provider:war exploded" />
+    </root>
+  </artifact>
+</component>

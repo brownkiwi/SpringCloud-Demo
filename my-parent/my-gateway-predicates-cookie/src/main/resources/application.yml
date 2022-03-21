@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: my-gateway-predicates-cookie-8085
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.84:8848
+        username: nacos
+        password: nacos
+        ip: 192.168.0.84
+    gateway:
+      routes:
+        - id: go_baidu
+          uri: http://www.baidu.com/
+          predicates:
+            - Path=/**
+            - Cookie=mykey,myvalue
+
+server:
+  port: 8085

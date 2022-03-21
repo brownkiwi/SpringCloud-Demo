@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-sentinel-circuitbreakingexception-provider:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-sentinel-circuitbreakingexception-provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-sentinel-circuitbreakingexception-provider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-sentinel-circuitbreakingexception-provider-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-sentinel-circuitbreakingexception-provider:war exploded" />
+    </root>
+  </artifact>
+</component>

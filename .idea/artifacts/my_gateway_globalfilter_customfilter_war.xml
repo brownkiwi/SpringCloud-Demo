@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-gateway-globalfilter-customfilter:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-gateway-globalfilter-customfilter/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-gateway-globalfilter-customfilter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-gateway-globalfilter-customfilter-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-gateway-globalfilter-customfilter:war exploded" />
+    </root>
+  </artifact>
+</component>

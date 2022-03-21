@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ghy.www</groupId>
+    <artifactId>my-parent</artifactId>
+    <version>1.0-RELEASE</version>
+    <modules>
+        <module>my-api</module>
+        <module>my-nacos-provider-standalone-cluster</module>
+        <module>my-nacos-resttemplate-direct-consumer</module>
+        <module>my-nacos-resttemplate-spring-consumer</module>
+        <module>my-nacos-namespace-provider</module>
+        <module>my-nacos-namespace-consumer</module>
+        <module>my-nacos-cluster-provider</module>
+        <module>my-nacos-cluster-consumer</module>
+        <module>my-nacos-openfeign-consumer</module>
+        <module>my-nacos-openfeign-cluster-consumer</module>
+        <module>my-nacos-config-provider</module>
+        <module>my-nacos-config-consumer</module>
+        <module>my-nacos-switchactive-consumer</module>
+        <module>my-nacos-config-refreshable-consumer</module>
+        <module>my-nacos-config-refreshable-connectionpool-consumer</module>
+        <module>my-nacos-config-commonconfig-consumer</module>
+        <module>my-sentinel-begin-provider</module>
+        <module>my-sentinel-begin-consumer</module>
+        <module>my-sentinel-flowcontrol-provider</module>
+        <module>my-sentinel-flowcontrol-consumer</module>
+        <module>my-sentinel-circuitbreaking-provider</module>
+        <module>my-sentinel-circuitbreaking-consumer</module>
+        <module>my-sentinel-hotspot-provider</module>
+        <module>my-sentinel-hotspot-consumer</module>
+        <module>my-sentinel-originauthoritycontrol-provider</module>
+        <module>my-sentinel-originauthoritycontrol-consumer</module>
+        <module>my-sentinel-systemadaptiveprotection-provider</module>
+        <module>my-sentinel-systemadaptiveprotection-consumer</module>
+        <module>my-sentinel-flowcontrolexception-provider</module>
+        <module>my-sentinel-flowcontrolexception-consumer</module>
+        <module>my-sentinel-circuitbreakingexception-provider</module>
+        <module>my-sentinel-circuitbreakingexception-consumer</module>
+        <module>my-sentinel-datasourceextensionpull-provider</module>
+        <module>my-sentinel-datasourceextensionpull-consumer</module>
+        <module>my-sentinel-datasourceextensionpush-provider</module>
+        <module>my-sentinel-datasourceextensionpush-consumer</module>
+        <module>my-gateway-predicates-path-begintest</module>
+        <module>my-gateway-predicates-path-providercluster</module>
+        <module>my-gateway-predicates-after</module>
+        <module>my-gateway-predicates-before</module>
+        <module>my-gateway-predicates-between</module>
+        <module>my-gateway-predicates-cookie</module>
+        <module>my-gateway-predicates-header</module>
+        <module>my-gateway-predicates-query</module>
+        <module>my-gateway-predicates-host</module>
+        <module>my-gateway-predicates-remoteaddr</module>
+        <module>my-gateway-predicates-method</module>
+        <module>my-gateway-predicates-weight</module>
+        <module>my-gateway-predicates-custompredicates</module>
+        <module>my-gateway-gatewayfilter-addrequestheader</module>
+        <module>my-gateway-gatewayfilter-customfilter</module>
+        <module>my-gateway-globalfilter-customfilter</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>my-parent</name>
+    <url>http://www.example.com</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.3</version>
+    </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2021.0.1.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>2021.0.1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+            <plugins>
+                <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+                <plugin>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>3.1.0</version>
+                </plugin>
+                <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+                <plugin>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.0.2</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.0</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.22.1</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.0.2</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>2.5.2</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>2.8.2</version>
+                </plugin>
+                <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+                <plugin>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>3.7.1</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-project-info-reports-plugin</artifactId>
+                    <version>3.0.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-gateway-predicates-cookie:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-gateway-predicates-cookie/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-gateway-predicates-cookie</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-gateway-predicates-cookie-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-gateway-predicates-cookie:war exploded" />
+    </root>
+  </artifact>
+</component>

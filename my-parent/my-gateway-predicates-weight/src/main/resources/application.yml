@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: my-gateway-predicates-weight-8088
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.75:8848
+        username: nacos
+        password: nacos
+        ip: 192.168.0.75
+    gateway:
+      routes:
+        - id: go_baidu1
+          uri: http://192.168.0.75:8085
+          predicates:
+            - Path=/**
+            - Weight=mygroup1,3
+        - id: go_baidu2
+          uri: http://192.168.0.75:8086
+          predicates:
+            - Path=/**
+            - Weight=mygroup1,7
+
+server:
+  port: 8088

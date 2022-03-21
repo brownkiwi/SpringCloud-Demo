@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: my-gateway-predicates-between-8085
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.84:8848
+        username: nacos
+        password: nacos
+        ip: 192.168.0.84
+    gateway:
+      routes:
+        - id: go_baidu
+          uri: http://www.baidu.com/
+          predicates:
+            - Path=/**
+            - Between=2022-01-16T21:45:12.506+08:00[Asia/Shanghai],2022-10-18T21:45:12.506+08:00[Asia/Shanghai]
+
+server:
+  port: 8085

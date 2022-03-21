@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-gateway-predicates-host:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-gateway-predicates-host/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-gateway-predicates-host</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-gateway-predicates-host-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-gateway-predicates-host:war exploded" />
+    </root>
+  </artifact>
+</component>

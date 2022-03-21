@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-nacos-namespace-provider:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-nacos-namespace-provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-nacos-namespace-provider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-nacos-namespace-provider-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-nacos-namespace-provider:war exploded" />
+    </root>
+  </artifact>
+</component>

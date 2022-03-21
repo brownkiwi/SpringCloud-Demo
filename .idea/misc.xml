@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-gatewayfilter-addrequestheader" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-gatewayfilter-customfilter" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-globalfilter-customfilter" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-after" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-before" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-between" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-cookie" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-custompredicates" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-header" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-host" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-method" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-path-begintest" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-path-providercluster" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-query" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-remoteaddr" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-weight" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-cluster-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-cluster-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-config-commonconfig-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-config-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-config-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-config-refreshable-connectionpool-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-config-refreshable-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-namespace-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-namespace-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-openfeign-cluster-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-openfeign-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-provider-cluster/src/main/java" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-provider-cluster/src/test/java" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-provider-standalone-cluster" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-resttemplate-spring-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-nacos-switchactive-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-begin-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-begin-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-circuitbreaking-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-circuitbreaking-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-circuitbreakingexception-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-circuitbreakingexception-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-datasourceextensionpull-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-datasourceextensionpull-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-flowcontrol-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-flowcontrol-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-flowcontrolexception-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-flowcontrolexception-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-hotspot-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-hotspot-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-originauthoritycontrol-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-originauthoritycontrol-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-systemadaptiveprotection-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/my-parent/my-sentinel-systemadaptiveprotection-provider" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/my-parent/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/my-parent/my-nacos-provider-cluster/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

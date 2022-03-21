@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: my-gateway-predicates-custompredicates-8085
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.75:8848
+        username: nacos
+        password: nacos
+        ip: 192.168.0.75
+    gateway:
+      routes:
+        - id: go_baidu
+          uri: http://www.baidu.com/
+          predicates:
+            - Path=/**
+            - MyHeader=ghy,123
+
+server:
+  port: 8085
+
+logging:
+  level:
+    org.springframework.cloud.gateway: trace
+    org.springframework.cloud.loadbalancer: trace
+    org.springframework.web.reactive: trace

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: my-nacos-resttemplate-spring-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.71:8848
+        username: nacos
+        password: nacos
+
+server:
+  port: 8091

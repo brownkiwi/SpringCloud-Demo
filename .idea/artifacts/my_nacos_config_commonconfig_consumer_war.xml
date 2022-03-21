@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-nacos-config-commonconfig-consumer:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-nacos-config-commonconfig-consumer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-nacos-config-commonconfig-consumer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-nacos-config-commonconfig-consumer-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-nacos-config-commonconfig-consumer:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.0.75:8848
+        username: nacos
+        password: nacos
+        namespace: ConfigManager_Test1
+        group: ConfigManager_Test1_Group
+        prefix: MyNacosConfigConsumer
+        file-extension: yml
+  profiles:
+    active: 8092

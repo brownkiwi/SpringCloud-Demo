@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-gateway-predicates-before:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-gateway-predicates-before/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-gateway-predicates-before</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-gateway-predicates-before-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-gateway-predicates-before:war exploded" />
+    </root>
+  </artifact>
+</component>

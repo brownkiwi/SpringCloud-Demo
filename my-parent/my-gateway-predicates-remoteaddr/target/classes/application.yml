@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: my-gateway-predicates-remoteaddr-8088
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.75:8848
+        username: nacos
+        password: nacos
+        ip: 192.168.0.75
+    gateway:
+      routes:
+        - id: go_baidu
+          uri: http://www.baidu.com
+          predicates:
+            - Path=/**
+            - RemoteAddr=192.168.0.1/24
+#访问的时候，使用本机ip:端口/对方的控制层。。。例如本案例:192.168.31.58:8088/get/test1
+server:
+  port: 8088

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/my-parent/my-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-gatewayfilter-addrequestheader/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-gatewayfilter-customfilter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-globalfilter-customfilter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-after/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-after/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-before/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-between/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-cookie/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-custompredicates/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-header/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-host/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-method/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-path-begintest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-path-providercluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-query/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-remoteaddr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-gateway-predicates-weight/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-cluster-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-cluster-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-config-commonconfig-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-config-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-config-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-config-refreshable-connectionpool-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-config-refreshable-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-namespace-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-namespace-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-openfeign-cluster-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-openfeign-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-provider-cluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-provider-standalone-cluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-resttemplate-direct-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-resttemplate-spring-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-nacos-switchactive-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-begin-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-begin-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-circuitbreaking-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-circuitbreaking-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-circuitbreakingexception-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-circuitbreakingexception-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-datasourceextensionpull-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-datasourceextensionpull-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-datasourceextensionpush-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-datasourceextensionpush-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-flowcontrol-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-flowcontrol-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-flowcontrolexception-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-flowcontrolexception-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-hotspot-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-hotspot-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-originauthoritycontrol-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-originauthoritycontrol-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-systemadaptiveprotection-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/my-sentinel-systemadaptiveprotection-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-parent/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

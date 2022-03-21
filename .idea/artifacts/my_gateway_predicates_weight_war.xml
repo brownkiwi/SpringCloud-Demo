@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-gateway-predicates-weight:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-gateway-predicates-weight/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-gateway-predicates-weight</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-gateway-predicates-weight-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-gateway-predicates-weight:war exploded" />
+    </root>
+  </artifact>
+</component>

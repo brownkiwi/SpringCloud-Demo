@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-sentinel-systemadaptiveprotection-provider:war">
+    <output-path>$PROJECT_DIR$/my-parent/my-sentinel-systemadaptiveprotection-provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-sentinel-systemadaptiveprotection-provider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-sentinel-systemadaptiveprotection-provider-1.0-RELEASE.war">
+      <element id="artifact" artifact-name="my-sentinel-systemadaptiveprotection-provider:war exploded" />
+    </root>
+  </artifact>
+</component>
