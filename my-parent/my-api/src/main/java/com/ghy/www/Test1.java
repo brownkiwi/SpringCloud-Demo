@@ -34,6 +34,7 @@ public class Test1 {
             }
             Integer max = Collections.max(list);
             System.out.println(max);
+            System.out.println(11111);
         }
 
     }
