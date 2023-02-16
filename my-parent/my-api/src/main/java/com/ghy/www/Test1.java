@@ -32,9 +32,7 @@ public class Test1 {
                 }
                 list.add(Integer.valueOf(a + b));
             }
-            Integer max = Collections.max(list);
-            System.out.println(max);
-            System.out.println(11111);
+
         }
 
     }
